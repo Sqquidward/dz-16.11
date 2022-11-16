@@ -1,4 +1,4 @@
-def conv():
+def conv(n):
     b = ''
     while n > 0:
         b = str(n % 4) + b
@@ -7,7 +7,7 @@ def conv():
     return b
 list = ["в", "и", "н", "т"]
 
-count = conv(1019)[2:]
+count = conv(1019)
 
 answer = ''
 for i in range(len(count)):
